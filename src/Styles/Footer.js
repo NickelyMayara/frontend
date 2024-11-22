@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const BoxFooter = styled.section`
-    height: 11%;
+    height: 10%;
     background-color: #130404;
     display: flex;
     justify-content: center;

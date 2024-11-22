@@ -40,7 +40,24 @@ export const SpanInicie = styled.span`
     font-size: clamp(15px, 1em + 0.7vw, 4em);;
 `;
 
-export const SpanOrganizado = styled.span`
+export const SpanODia = styled.span`
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 `;
+
+export const SpanOrganizado = styled.span`
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-style: normal;
+`;
+export const ButtonSubmit = styled.button`
+    background-color: #370404;
+    opacity: 70%;
+    height: 35px;
+    width: 110px;
+    color: white;
+    margin-left: 60px;
+    border: transparent;
+    border-radius: 10px;
+`
