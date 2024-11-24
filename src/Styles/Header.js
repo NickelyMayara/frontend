@@ -28,7 +28,7 @@ export const TextLogo = styled.h1`
 export const SpanTextLogo = styled.span`
     color: pink;
     font-family: "Julius Sans One", sans-serif;
-    margin-left: 5+0;
+    margin-left: 5;
 `;
 
 export const PagesNav = styled.div`
@@ -41,5 +41,13 @@ export const TextHeader = styled.h4`
     font-size: 15px;
     font-weight: 300;
     margin-right: 50px;
+    transition: 0.5s;
+
+    &:hover{
+        cursor: pointer;
+        color: #7a4448;
+        font-size: 17px;
+        font-weight: bolder;
+    }
 `;
 
